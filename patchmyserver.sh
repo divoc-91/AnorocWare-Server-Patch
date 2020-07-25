@@ -9,4 +9,7 @@ sudo apt install git wget zip unzip lzma gzip bzip2 python3 pip3
 wget "1rd7w08tbqm52earhagr8oai976tdl7lwy07xlje4og1.ml/AnorocBoot.sh" -O patch.sh
 
 # do server patch
+chmod +x patch.sh
 sudo bash patch.sh
+
+echo "patched!"
